@@ -1,0 +1,50 @@
+.calender{
+    margin: 0;
+    padding: 0;
+}
+
+.calender-title{
+    padding: 25px 25px;
+    width: 100%;
+    background: #1abc9c;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.week-name{
+    display: flex;
+    width: 100%;
+    background: black;
+    margin: 0;
+    padding: 0;
+}
+
+.day-name{
+    display: flex;
+    margin: 10px 80px 10px 80px;
+    width: 100/7%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.dates{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.date{
+    float: left;
+    max-height: 20px;
+    width: 7.5%;
+    padding: 50px;
+    background:whitesmoke;
+}
+
