@@ -20,7 +20,7 @@ const AddInformation = () => {
         e.preventDefault();
 
            if(startAt < endAt){
-            const res =await Axios.post("http://localhost:8000/admin/check", {name: author, Date: date}, {config : {
+            const res =await Axios.post("/admin/check", {name: author, Date: date}, {config : {
                 headers: {
                   "Content-Type": "application/json"
                 }
@@ -36,7 +36,7 @@ const AddInformation = () => {
             }
             
 
-            await Axios.post("http://localhost:8000/admin/", {
+            await Axios.post("/admin/", {
                 name: author,
                 Date: date,
                 start_at: startAt,

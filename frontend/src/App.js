@@ -5,9 +5,10 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
+import axios from "axios";
 import AddInformation from './components/AddInformation/AddInformation';
 
-
+axios.defaults.withCredentials = true;
 function App() {
   return (
     <Router>
